@@ -8,13 +8,13 @@
 在公司电脑上让 Agent 克隆本仓库并进入目录：
 
 ```bash
-git clone git@github.com:hex1n/company-overlay-kit.git
+git clone https://github.com/hex1n/company-overlay-kit.git
 cd company-overlay-kit
 python3 -m unittest scripts/test_configure_company.py
 ```
 
-需要 Python 3.9 或更高版本。私有仓库需要该电脑已有可访问本仓库的 GitHub SSH
-凭据；不要把个人 GitHub 凭据直接写进 Agent 提示或项目文件。
+需要 Python 3.9 或更高版本。仓库为公开的脱敏工具仓库，clone 不需要 GitHub
+登录、Token 或 SSH Key；实际公司配置只写入被 Git 忽略的 `.local/`。
 
 ## 使用前
 
