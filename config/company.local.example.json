@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "company": {
+    "domains": [
+      "corp.example.com"
+    ],
+    "cidrs": [
+      "10.20.0.0/16"
+    ]
+  },
+  "dns": {
+    "servers": [
+      "system"
+    ]
+  },
+  "wifi": {
+    "ssids": [
+      "Company-WiFi"
+    ]
+  },
+  "vpn": {
+    "client": "GlobalProtect",
+    "tunnel": "split"
+  }
+}
